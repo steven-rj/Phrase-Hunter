@@ -24,7 +24,8 @@ class Game:
             guess = self.get_guess()
             # adds player's guess to the guesses list
             self.guesses.append(guess)
-            # self.active_phrase.check_letter(self.guesses)
+            print(self.guesses)
+            self.active_phrase.check_letter(guess)
             # # increments missed if guess incorrect
             # if guess not in self.active_phrase:
             #     self.missed += 1
