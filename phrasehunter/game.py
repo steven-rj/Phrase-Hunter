@@ -14,21 +14,25 @@ class Game:
     def start(self):
 
         self.welcome()
-
-        # creates game loop
         self.active_phrase = self.get_random_phrase()
-        # calls get_guess()
-        guess = self.get_guess()
-        # adds player's guess to the guesses list
-        self.guesses.append(guess)
-        # increments missed if guess incorrect
-        if guess not in self.active_phrase:
-            self.missed += 1
-            print(f"{guess} isn't in the phrase!")
-            print(f"You have {5 - self.missed} lives left!")
-        # calls game_over()
-        if self.missed > 5:
-            game_over()
+        print(self.active_phrase)
+        # creates game loop
+        while True:            
+            self.active_phrase.display(self.guesses)
+            
+            # calls get_guess()
+            guess = self.get_guess()
+            # adds player's guess to the guesses list
+            self.guesses.append(guess)
+            # self.active_phrase.check_letter(self.guesses)
+            # # increments missed if guess incorrect
+            # if guess not in self.active_phrase:
+            #     self.missed += 1
+            #     print(f"{guess} isn't in the phrase!")
+            #     print(f"You have {5 - self.missed} lives left!")
+            # # calls game_over()
+            # if self.missed > 5 or self.active_phrase.check_complete():
+            #     self.game_over()
 
 
     def get_random_phrase(self):
@@ -38,7 +42,7 @@ class Game:
 
     def welcome(self):
 
-        print("Welcome to P-H-R-A-S-E--H-U-N-T-E-R!!")
+        print("P-H-R-A-S-E--H-U-N-T-E-R!!")
 
     
     def get_guess(self):
