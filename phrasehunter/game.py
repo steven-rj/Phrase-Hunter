@@ -34,7 +34,7 @@ class Game:
                 print(f"{guess} isn't in the phrase!")
                 print(f"You have {5 - self.missed} lives left!")
             # calls game_over()
-            if self.missed > 5 or self.active_phrase.check_complete(self.guesses):
+            if self.active_phrase.check_complete(self.guesses):
                 self.game_over()
 
 
@@ -45,7 +45,7 @@ class Game:
 
     def welcome(self):
 
-        print("P-H-R-A-S-E--H-U-N-T-E-R!!")
+        print("\n\nP-H-R-A-S-E--H-U-N-T-E-R!!\n")
 
     
     def get_guess(self):

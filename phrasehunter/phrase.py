@@ -32,6 +32,8 @@ class Phrase:
         complete = True
 
         for letter in self.phrase:
+            if letter == " ":
+                continue
             if letter not in guesses:
                 complete = False
 
