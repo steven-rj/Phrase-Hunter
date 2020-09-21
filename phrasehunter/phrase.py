@@ -27,7 +27,12 @@ class Phrase:
         return letter in self.phrase
 
 
-    def check_complete(self):
+    def check_complete(self, guesses):
         
-        return "_" in self.phrase
-    
+        complete = True
+
+        for letter in self.phrase:
+            if letter not in guesses:
+                complete = False
+
+        return complete

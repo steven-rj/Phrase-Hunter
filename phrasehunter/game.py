@@ -1,14 +1,16 @@
 import random
+import sys
+
 from .phrase import Phrase
 
 class Game:
 
-    def __init__(self):
+    def __init__(self, missed=0, phrases=[], active_phrase=None, guesses=[]):
 
-        self.missed = 0
+        self.missed = missed
         self.phrases = [Phrase("cat in the hat"), Phrase("boy who cried wolf"), Phrase("the fox and the hound"), Phrase("the sword in the stone"), Phrase("robin hood")]
-        self.active_phrase = None
-        self.guesses = []
+        self.active_phrase = active_phrase
+        self.guesses = guesses
 
 
     def start(self):
@@ -32,7 +34,7 @@ class Game:
                 print(f"{guess} isn't in the phrase!")
                 print(f"You have {5 - self.missed} lives left!")
             # calls game_over()
-            if self.missed > 5 or self.active_phrase.check_complete():
+            if self.missed > 5 or self.active_phrase.check_complete(self.guesses):
                 self.game_over()
 
 
@@ -64,3 +66,12 @@ class Game:
 
         # print win or lose message
         print("Game Over!")
+
+        replay = ""
+        while replay != "y" and replay != "n":
+            replay = input("Play again? [y/n] >> ").lower()
+        
+        if replay == "y":
+            self.start()
+        elif replay == "n":
+            sys.exit()
