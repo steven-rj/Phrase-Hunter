@@ -16,9 +16,9 @@ class Phrase:
             if self.phrase[i] in guesses:
                 print(f"{self.phrase[i]} ", end= "")
             elif self.phrase[i] == " ":
-                print(" ", end= "")
+                print("  ", end= "")
             else:
-                print("_", end= "")
+                print("_ ", end= "")
         print("\n")
 
 

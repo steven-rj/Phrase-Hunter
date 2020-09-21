@@ -26,14 +26,14 @@ class Game:
             self.guesses.append(guess)
             print(self.guesses)
             self.active_phrase.check_letter(guess)
-            # # increments missed if guess incorrect
-            # if guess not in self.active_phrase:
-            #     self.missed += 1
-            #     print(f"{guess} isn't in the phrase!")
-            #     print(f"You have {5 - self.missed} lives left!")
-            # # calls game_over()
-            # if self.missed > 5 or self.active_phrase.check_complete():
-            #     self.game_over()
+            # increments missed if guess incorrect
+            if not self.active_phrase.check_letter(guess):
+                self.missed += 1
+                print(f"{guess} isn't in the phrase!")
+                print(f"You have {5 - self.missed} lives left!")
+            # calls game_over()
+            if self.missed > 5 or self.active_phrase.check_complete():
+                self.game_over()
 
 
     def get_random_phrase(self):
@@ -55,7 +55,7 @@ class Game:
 
             if guess in self.guesses:
                 print("You've alread guessed that letter!")
-                print(self.guesses)
+                print(f"Past Guesses: {self.guesses}")
                 guess = ""
 
         return guess
