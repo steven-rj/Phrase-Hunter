@@ -5,12 +5,12 @@ from .phrase import Phrase
 
 class Game:
 
-    def __init__(self, missed=0, phrases=[], active_phrase=None, guesses=[]):
+    def __init__(self):
 
-        self.missed = missed
+        self.missed = 0
         self.phrases = [Phrase("cat in the hat"), Phrase("boy who cried wolf"), Phrase("the fox and the hound"), Phrase("the sword in the stone"), Phrase("robin hood")]
-        self.active_phrase = active_phrase
-        self.guesses = guesses
+        self.active_phrase = None
+        self.guesses = []
 
 
     def start(self):
@@ -72,6 +72,7 @@ class Game:
             replay = input("Play again? [y/n] >> ").lower()
         
         if replay == "y":
-            self.start()
+            game = Game()
+            game.start()
         elif replay == "n":
             sys.exit()
