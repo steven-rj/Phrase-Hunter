@@ -16,7 +16,7 @@ class Game:
         Phrase("The Bare Necessities"), Phrase("Youre Welcome"), Phrase("Colors of the Wind"), Phrase("Un Poco Loco"),
         Phrase("Circle of Life"), Phrase("Hakuna Matata"), Phrase("Bibbidi Bobbidi Boo"), Phrase("Part of Your World"),
         Phrase("Supercalifragilisticexpialidocious"), Phrase("A Place Called Slaughter Race"),
-        Phrase("Be Prepared"), Phrase("Reflection")]},
+        Phrase("Be Prepared"), Phrase("Reflection"), Phrase("Part of Your World") ]},
 
         {"Disney Movies [Medium]": [Phrase("The Hunchback of Notre Dame"), Phrase("Mulan"), Phrase("Aladdin"),
         Phrase("Moana"), Phrase("The Princess and the Frog"), Phrase("The Lion King"), Phrase("Pirates of the Caribbean"),
@@ -30,7 +30,8 @@ class Game:
         Phrase("Hercules"), Phrase("Inspector Gadget"), Phrase("Monsters Inc"), Phrase("Cinderella")]},
         
         {"Colors [Easy]": [Phrase("blue"), Phrase("green"), Phrase("black"), Phrase("grey"),
-        Phrase("yellow"), Phrase("red"), Phrase("cyan"), Phrase("purple"), Phrase("orange"), Phrase("magenta") ]} ]
+        Phrase("yellow"), Phrase("red"), Phrase("cyan"), Phrase("purple"), Phrase("orange"), Phrase("magenta"),
+        Phrase("violet") ]} ]
         self.active_phrase = None
         self.guesses = []
         self.category = ""
