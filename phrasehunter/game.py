@@ -16,7 +16,8 @@ class Game:
         Phrase("The Bare Necessities"), Phrase("Youre Welcome"), Phrase("Colors of the Wind"), Phrase("Un Poco Loco"),
         Phrase("Circle of Life"), Phrase("Hakuna Matata"), Phrase("Bibbidi Bobbidi Boo"), Phrase("Part of Your World"),
         Phrase("Supercalifragilisticexpialidocious"), Phrase("A Place Called Slaughter Race"),
-        Phrase("Be Prepared"), Phrase("Reflection"), Phrase("Part of Your World"), Phrase("When You Wish Upon A Star") ]},
+        Phrase("Be Prepared"), Phrase("Reflection"), Phrase("Part of Your World"), Phrase("When You Wish Upon A Star"),
+        Phrase("A Guy Like You"), Phrase("Thats What Friends Are For") ]},
 
         {"Disney Movies [Medium]": [Phrase("The Hunchback of Notre Dame"), Phrase("Mulan"), Phrase("Aladdin"),
         Phrase("Moana"), Phrase("The Princess and the Frog"), Phrase("The Lion King"), Phrase("Pirates of the Caribbean"),
