@@ -18,7 +18,7 @@ class Game:
         Phrase("Supercalifragilisticexpialidocious"), Phrase("A Place Called Slaughter Race"),
         Phrase("Be Prepared"), Phrase("Reflection"), Phrase("Part of Your World"), Phrase("When You Wish Upon A Star"),
         Phrase("A Guy Like You"), Phrase("Thats What Friends Are For"), Phrase("Whistle While You Work"), 
-        Phrase("Hi Diddle Dee Dee") ]},
+        Phrase("Hi Diddle Dee Dee"), Phrase("Pink Elephants on Parade"), Phrase("Fee Fi Fo Fum") ]},
 
         {"Disney Movies [Medium]": [Phrase("The Hunchback of Notre Dame"), Phrase("Mulan"), Phrase("Aladdin"),
         Phrase("Moana"), Phrase("The Princess and the Frog"), Phrase("The Lion King"), Phrase("Pirates of the Caribbean"),
