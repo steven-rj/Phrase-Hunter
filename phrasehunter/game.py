@@ -21,7 +21,8 @@ class Game:
         Phrase("Hi Diddle Dee Dee"), Phrase("Pink Elephants on Parade"), Phrase("Fee Fi Fo Fum"),
         Phrase("A Dream Is a Wish Your Heart Makes"), Phrase("The Walrus and the Carpenter"),
         Phrase("Scales and Arpeggios"), Phrase("The Phony King of England"), Phrase("Goodbye May Seem Forever"),
-        Phrase("The Worlds Greatest Criminal Mind"), Phrase("Appreciate the Lady") ]},
+        Phrase("The Worlds Greatest Criminal Mind"), Phrase("Appreciate the Lady"), Phrase("Let Me Be Good To You"),
+        Phrase("Goodbye So Soon") ]},
 
         {"Disney Movies [Medium]": [Phrase("The Hunchback of Notre Dame"), Phrase("Mulan"), Phrase("Aladdin"),
         Phrase("Moana"), Phrase("The Princess and the Frog"), Phrase("The Lion King"), Phrase("Pirates of the Caribbean"),
