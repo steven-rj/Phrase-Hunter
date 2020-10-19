@@ -22,7 +22,7 @@ class Game:
         Phrase("A Dream Is a Wish Your Heart Makes"), Phrase("The Walrus and the Carpenter"),
         Phrase("Scales and Arpeggios"), Phrase("The Phony King of England"), Phrase("Goodbye May Seem Forever"),
         Phrase("The Worlds Greatest Criminal Mind"), Phrase("Appreciate the Lady"), Phrase("Let Me Be Good To You"),
-        Phrase("Goodbye So Soon") ]},
+        Phrase("Goodbye So Soon"), Phrase("Once Upon A Time In New York City"), Phrase("Why Should I Worry") ]},
 
         {"Disney Movies [Medium]": [Phrase("The Hunchback of Notre Dame"), Phrase("Mulan"), Phrase("Aladdin"),
         Phrase("Moana"), Phrase("The Princess and the Frog"), Phrase("The Lion King"), Phrase("Pirates of the Caribbean"),
