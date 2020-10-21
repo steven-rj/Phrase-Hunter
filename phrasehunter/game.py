@@ -36,9 +36,7 @@ class Game:
         Phrase("Hocus Pocus"), Phrase("Cool Runnings"), Phrase("The Jungle Book"),  Phrase("Pocahontas"),
         Phrase("Hercules"), Phrase("Inspector Gadget"), Phrase("Monsters Inc"), Phrase("Cinderella")]},
         
-        {"Colors [Easy]": [Phrase("blue"), Phrase("green"), Phrase("black"), Phrase("grey"),
-        Phrase("yellow"), Phrase("red"), Phrase("cyan"), Phrase("purple"), Phrase("orange"), Phrase("magenta"),
-        Phrase("violet") ]} ]
+        {"Disney Heroes and Villians [Easy]": Phrase("Mulan"), Phrase("Shan Yu"), Prhase("Simba"), Phrase("Scar") ]} ]
         self.active_phrase = None
         self.guesses = []
         self.category = ""
