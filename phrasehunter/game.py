@@ -37,7 +37,8 @@ class Game:
         Phrase("Hercules"), Phrase("Inspector Gadget"), Phrase("Monsters Inc"), Phrase("Cinderella")]},
         
         {"Disney Heroes and Villians [Easy]": [Phrase("Mulan"), Phrase("Shan Yu"), Phrase("Simba"), Phrase("Scar"),
-        Phrase("Ariel"), Phrase("Ursula") ]} ]
+        Phrase("Ariel"), Phrase("Ursula"), Phrase("Aladdin"), Phrase("Jafar"), Phrase("Mr Incredible"), 
+        Phrase("The Screenslaver") ]} ]
         self.active_phrase = None
         self.guesses = []
         self.category = ""
