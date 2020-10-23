@@ -25,7 +25,7 @@ class Game:
         Phrase("Goodbye So Soon"), Phrase("Once Upon A Time In New York City"), Phrase("Why Should I Worry"),
         Phrase("Daughters of Triton"), Phrase("Part of Your World") ]},
 
-        {"Disney Movies [Medium]": [Phrase("The Hunchback of Notre Dame"), Phrase("Mulan"), Phrase("Aladdin"),
+        {"Disney Movies [Easy]": [Phrase("The Hunchback of Notre Dame"), Phrase("Mulan"), Phrase("Aladdin"),
         Phrase("Moana"), Phrase("The Princess and the Frog"), Phrase("The Lion King"), Phrase("Pirates of the Caribbean"),
         Phrase("Wreck It Ralph"), Phrase("Pinocchio"), Phrase("Dumbo"), Phrase("Fantasia"), Phrase("Bambi"),
         Phrase("Alice In Wonderland"), Phrase("Peter Pan"), Phrase("Lady and the Tramp"), Phrase("Old Yeller"),
@@ -36,9 +36,9 @@ class Game:
         Phrase("Hocus Pocus"), Phrase("Cool Runnings"), Phrase("The Jungle Book"),  Phrase("Pocahontas"),
         Phrase("Hercules"), Phrase("Inspector Gadget"), Phrase("Monsters Inc"), Phrase("Cinderella")]},
         
-        {"Disney Heroes and Villians [Easy]": [Phrase("Mulan"), Phrase("Shan Yu"), Phrase("Simba"), Phrase("Scar"),
+        {"Disney Heroes and Villians [Medium]": [Phrase("Mulan"), Phrase("Shan Yu"), Phrase("Simba"), Phrase("Scar"),
         Phrase("Ariel"), Phrase("Ursula"), Phrase("Aladdin"), Phrase("Jafar"), Phrase("Mr Incredible"), 
-        Phrase("The Screenslaver"), Phrase("Beast"), Phrase("Gaston") ]} ]
+        Phrase("The Screenslaver"), Phrase("Beast"), Phrase("Gaston"), Phrase("") ]} ]
         self.active_phrase = None
         self.guesses = []
         self.category = ""
