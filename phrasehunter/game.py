@@ -39,7 +39,8 @@ class Game:
         {"Disney Heroes and Villians [Medium]": [Phrase("Mulan"), Phrase("Shan Yu"), Phrase("Simba"), Phrase("Scar"),
         Phrase("Ariel"), Phrase("Ursula"), Phrase("Aladdin"), Phrase("Jafar"), Phrase("Mr Incredible"), 
         Phrase("The Screenslaver"), Phrase("Beast"), Phrase("Gaston"), Phrase("Mowgli"), Phrase("Shere Khan"),
-        Phrase("Hercules"), Phrase("Hades"), Phrase("Quasimodo"), Phrase("Dom Claude Frollo") ]} ]
+        Phrase("Hercules"), Phrase("Hades"), Phrase("Quasimodo"), Phrase("Dom Claude Frollo"), Phrase("Wreck It Ralph"),
+        Phrase("King Candy") ]} ]
         self.active_phrase = None
         self.guesses = []
         self.category = ""
