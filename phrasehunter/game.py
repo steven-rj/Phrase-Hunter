@@ -40,7 +40,7 @@ class Game:
         Phrase("Ariel"), Phrase("Ursula"), Phrase("Aladdin"), Phrase("Jafar"), Phrase("Mr Incredible"), 
         Phrase("The Screenslaver"), Phrase("Beast"), Phrase("Gaston"), Phrase("Mowgli"), Phrase("Shere Khan"),
         Phrase("Hercules"), Phrase("Hades"), Phrase("Quasimodo"), Phrase("Dom Claude Frollo"), Phrase("Wreck It Ralph"),
-        Phrase("King Candy") ]} ]
+        Phrase("King Candy"), Phrase("Cruella Devil") ]} ]
         self.active_phrase = None
         self.guesses = []
         self.category = ""
