@@ -42,7 +42,8 @@ class Game:
         Phrase("The Screenslaver"), Phrase("Beast"), Phrase("Gaston"), Phrase("Mowgli"), Phrase("Shere Khan"),
         Phrase("Hercules"), Phrase("Hades"), Phrase("Quasimodo"), Phrase("Dom Claude Frollo"), Phrase("Wreck It Ralph"),
         Phrase("King Candy"), Phrase("Cruella Devil"), Phrase("Snow White"),Phrase("Genie"), Phrase("Iago"),
-        Phrase("Barley Lightfoot"), Phrase("Ian Lightfoot"), Phrase("Rafiki"), Phrase("Timon"), Phrase("Ed") ]} ]
+        Phrase("Barley Lightfoot"), Phrase("Ian Lightfoot"), Phrase("Rafiki"), Phrase("Timon"), Phrase("Ed"),
+        Phrase("Iago"), Phrase("Lilo"), Phrase("Stitch") ]} ]
         self.active_phrase = None
         self.guesses = []
         self.category = ""
