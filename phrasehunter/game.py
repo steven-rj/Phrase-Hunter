@@ -43,7 +43,7 @@ class Game:
         Phrase("Hercules"), Phrase("Hades"), Phrase("Quasimodo"), Phrase("Dom Claude Frollo"), Phrase("Wreck It Ralph"),
         Phrase("King Candy"), Phrase("Cruella Devil"), Phrase("Snow White"),Phrase("Genie"), Phrase("Iago"),
         Phrase("Barley Lightfoot"), Phrase("Ian Lightfoot"), Phrase("Rafiki"), Phrase("Timon"), Phrase("Ed"),
-        Phrase("Iago"), Phrase("Lilo"), Phrase("Stitch"), Phrase("Nala") ]} ]
+        Phrase("Iago"), Phrase("Lilo"), Phrase("Stitch"), Phrase("Nala"), Phrase("Captain Jack Sparrow") ]} ]
         self.active_phrase = None
         self.guesses = []
         self.category = ""
