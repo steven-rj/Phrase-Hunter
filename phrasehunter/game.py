@@ -24,7 +24,8 @@ class Game:
         Phrase("The Worlds Greatest Criminal Mind"), Phrase("Appreciate the Lady"), Phrase("Let Me Be Good To You"),
         Phrase("Goodbye So Soon"), Phrase("Once Upon A Time In New York City"), Phrase("Why Should I Worry"),
         Phrase("Daughters of Triton"), Phrase("Part of Your World"), Phrase("Fathoms Below"), Phrase("Arabian Nights"),
-        Phrase("One Jump Ahead"), Phrase("I Put A Spell On You") ]},
+        Phrase("One Jump Ahead"), Phrase("I Put A Spell On You"), Phrase("Just Around teh Riverbend"),
+        Phrase("Colors of the Wind") ]},
 
         {"Disney Movies [Easy]": [Phrase("The Hunchback of Notre Dame"), Phrase("Mulan"), Phrase("Aladdin"),
         Phrase("Moana"), Phrase("The Princess and the Frog"), Phrase("The Lion King"), Phrase("Pirates of the Caribbean"),
