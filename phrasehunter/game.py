@@ -25,7 +25,8 @@ class Game:
         Phrase("Goodbye So Soon"), Phrase("Once Upon A Time In New York City"), Phrase("Why Should I Worry"),
         Phrase("Daughters of Triton"), Phrase("Part of Your World"), Phrase("Fathoms Below"), Phrase("Arabian Nights"),
         Phrase("One Jump Ahead"), Phrase("I Put A Spell On You"), Phrase("Just Around the Riverbend"),
-        Phrase("Colors of the Wind") ]},
+        Phrase("Colors of the Wind"), Phrase("God Help the Outcasts"), Phrase("Topsy Turvy"), Phrase("Go the Distance"),
+        Phrase("The Gospel Truth") ]},
 
         {"Disney Movies [Easy]": [Phrase("The Hunchback of Notre Dame"), Phrase("Mulan"), Phrase("Aladdin"),
         Phrase("Moana"), Phrase("The Princess and the Frog"), Phrase("The Lion King"), Phrase("Pirates of the Caribbean"),
@@ -37,7 +38,8 @@ class Game:
         Phrase("The Rocketeer"), Phrase("Beauty and the Beast"), Phrase("The Nightmare Before Chritmas"),
         Phrase("Hocus Pocus"), Phrase("Cool Runnings"), Phrase("The Jungle Book"),  Phrase("Pocahontas"),
         Phrase("Hercules"), Phrase("Inspector Gadget"), Phrase("Monsters Inc"), Phrase("Cinderella"),
-        Phrase("Snow White and the Seven Dwarves"), Phrase("Tom and Huck"), Phrase("White Fang"), Phrase("Toy Story") ]},
+        Phrase("Snow White and the Seven Dwarves"), Phrase("Tom and Huck"), Phrase("White Fang"), Phrase("Toy Story"),
+        Phrase("A Goofy Movie"), Phrase("James and the Giant Peach")]},
         
         {"Disney Characters [Medium]": [Phrase("Mulan"), Phrase("Shan Yu"), Phrase("Simba"), Phrase("Scar"),
         Phrase("Ariel"), Phrase("Ursula"), Phrase("Aladdin"), Phrase("Jafar"), Phrase("Mr Incredible"), 
@@ -46,7 +48,8 @@ class Game:
         Phrase("King Candy"), Phrase("Cruella Devil"), Phrase("Snow White"),Phrase("Genie"), Phrase("Iago"),
         Phrase("Barley Lightfoot"), Phrase("Ian Lightfoot"), Phrase("Rafiki"), Phrase("Timon"), Phrase("Ed"),
         Phrase("Iago"), Phrase("Lilo"), Phrase("Stitch"), Phrase("Nala"), Phrase("Captain Jack Sparrow"),
-        Phrase("Captain Salazar"), Phrase("Davy Jones"), Phrase("Sheriff Woody"), Phrase("Buzz Lightyear") ]} ]
+        Phrase("Captain Salazar"), Phrase("Davy Jones"), Phrase("Sheriff Woody"), Phrase("Buzz Lightyear"),
+        Phrase("Goofy"), Phrase("Max"),Phrase("Esmerelda")]} ]
         self.active_phrase = None
         self.guesses = []
         self.category = ""
