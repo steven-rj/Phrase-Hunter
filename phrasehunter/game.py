@@ -24,7 +24,7 @@ class Game:
         Phrase("The Worlds Greatest Criminal Mind"), Phrase("Appreciate the Lady"), Phrase("Let Me Be Good To You"),
         Phrase("Goodbye So Soon"), Phrase("Once Upon A Time In New York City"), Phrase("Why Should I Worry"),
         Phrase("Daughters of Triton"), Phrase("Part of Your World"), Phrase("Fathoms Below"), Phrase("Arabian Nights"),
-        Phrase("One Jump Ahead"), Phrase("I Put A Spell On You"), Phrase("Just Around teh Riverbend"),
+        Phrase("One Jump Ahead"), Phrase("I Put A Spell On You"), Phrase("Just Around the Riverbend"),
         Phrase("Colors of the Wind") ]},
 
         {"Disney Movies [Easy]": [Phrase("The Hunchback of Notre Dame"), Phrase("Mulan"), Phrase("Aladdin"),
@@ -37,7 +37,7 @@ class Game:
         Phrase("The Rocketeer"), Phrase("Beauty and the Beast"), Phrase("The Nightmare Before Chritmas"),
         Phrase("Hocus Pocus"), Phrase("Cool Runnings"), Phrase("The Jungle Book"),  Phrase("Pocahontas"),
         Phrase("Hercules"), Phrase("Inspector Gadget"), Phrase("Monsters Inc"), Phrase("Cinderella"),
-        Phrase("Snow White and the Seven Dwarves"), Phrase("Tom and Huck"), Phrase("White Fang") ]},
+        Phrase("Snow White and the Seven Dwarves"), Phrase("Tom and Huck"), Phrase("White Fang"), Phrase("Toy Story") ]},
         
         {"Disney Characters [Medium]": [Phrase("Mulan"), Phrase("Shan Yu"), Phrase("Simba"), Phrase("Scar"),
         Phrase("Ariel"), Phrase("Ursula"), Phrase("Aladdin"), Phrase("Jafar"), Phrase("Mr Incredible"), 
@@ -46,7 +46,7 @@ class Game:
         Phrase("King Candy"), Phrase("Cruella Devil"), Phrase("Snow White"),Phrase("Genie"), Phrase("Iago"),
         Phrase("Barley Lightfoot"), Phrase("Ian Lightfoot"), Phrase("Rafiki"), Phrase("Timon"), Phrase("Ed"),
         Phrase("Iago"), Phrase("Lilo"), Phrase("Stitch"), Phrase("Nala"), Phrase("Captain Jack Sparrow"),
-        Phrase("Captain Salazaar"), Phrase("Davy Jones") ]} ]
+        Phrase("Captain Salazar"), Phrase("Davy Jones"), Phrase("Sheriff Woody"), Phrase("Buzz Lightyear") ]} ]
         self.active_phrase = None
         self.guesses = []
         self.category = ""
