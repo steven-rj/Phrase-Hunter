@@ -9,7 +9,7 @@ class Game:
 
         self.missed = 0
         self.phrases = [ 
-        {"Disney Songs [Hard]": [Phrase("A Girl Worth Fighting For"), Phrase("Out There"),
+        {"Disney Songs": [Phrase("A Girl Worth Fighting For"), Phrase("Out There"),
         Phrase("I Just Cant Wait To Be King"), Phrase("Youve Got a Friend in Me"), 
         Phrase("I See the Light"), Phrase("Derezzed"), Phrase("This is Halloween"),
         Phrase("Poor Unfortunate Souls"), Phrase("You Can Fly"), Phrase("Friend Like Me"),
@@ -26,9 +26,10 @@ class Game:
         Phrase("Daughters of Triton"), Phrase("Part of Your World"), Phrase("Fathoms Below"), Phrase("Arabian Nights"),
         Phrase("One Jump Ahead"), Phrase("I Put A Spell On You"), Phrase("Just Around the Riverbend"),
         Phrase("Colors of the Wind"), Phrase("God Help the Outcasts"), Phrase("Topsy Turvy"), Phrase("Go the Distance"),
-        Phrase("The Gospel Truth") ]},
+        Phrase("The Gospel Truth"), Phrase("Two Worlds"), Phrase("Son of Man"), Phrase("Strangers Like Me"),
+        Phrase("Honor To Us All"), Phrase("He Mele No Lilo") ]},
 
-        {"Disney Movies [Easy]": [Phrase("The Hunchback of Notre Dame"), Phrase("Mulan"), Phrase("Aladdin"),
+        {"Disney Movies": [Phrase("The Hunchback of Notre Dame"), Phrase("Mulan"), Phrase("Aladdin"),
         Phrase("Moana"), Phrase("The Princess and the Frog"), Phrase("The Lion King"), Phrase("Pirates of the Caribbean"),
         Phrase("Wreck It Ralph"), Phrase("Pinocchio"), Phrase("Dumbo"), Phrase("Fantasia"), Phrase("Bambi"),
         Phrase("Alice In Wonderland"), Phrase("Peter Pan"), Phrase("Lady and the Tramp"), Phrase("Old Yeller"),
@@ -39,9 +40,9 @@ class Game:
         Phrase("Hocus Pocus"), Phrase("Cool Runnings"), Phrase("The Jungle Book"),  Phrase("Pocahontas"),
         Phrase("Hercules"), Phrase("Inspector Gadget"), Phrase("Monsters Inc"), Phrase("Cinderella"),
         Phrase("Snow White and the Seven Dwarves"), Phrase("Tom and Huck"), Phrase("White Fang"), Phrase("Toy Story"),
-        Phrase("A Goofy Movie"), Phrase("James and the Giant Peach")]},
+        Phrase("A Goofy Movie"), Phrase("James and the Giant Peach"), Phrase("Treasure Planet")]},
         
-        {"Disney Characters [Medium]": [Phrase("Mulan"), Phrase("Shan Yu"), Phrase("Simba"), Phrase("Scar"),
+        {"Disney Characters": [Phrase("Mulan"), Phrase("Shan Yu"), Phrase("Simba"), Phrase("Scar"),
         Phrase("Ariel"), Phrase("Ursula"), Phrase("Aladdin"), Phrase("Jafar"), Phrase("Mr Incredible"), 
         Phrase("The Screenslaver"), Phrase("Beast"), Phrase("Gaston"), Phrase("Mowgli"), Phrase("Shere Khan"),
         Phrase("Hercules"), Phrase("Hades"), Phrase("Quasimodo"), Phrase("Dom Claude Frollo"), Phrase("Wreck It Ralph"),
@@ -49,7 +50,7 @@ class Game:
         Phrase("Barley Lightfoot"), Phrase("Ian Lightfoot"), Phrase("Rafiki"), Phrase("Timon"), Phrase("Ed"),
         Phrase("Iago"), Phrase("Lilo"), Phrase("Stitch"), Phrase("Nala"), Phrase("Captain Jack Sparrow"),
         Phrase("Captain Salazar"), Phrase("Davy Jones"), Phrase("Sheriff Woody"), Phrase("Buzz Lightyear"),
-        Phrase("Goofy"), Phrase("Max"),Phrase("Esmerelda")]} ]
+        Phrase("Goofy"), Phrase("Max"),Phrase("Esmerelda"), Phrase("Tarzan"), Phrase("")]} ]
         self.active_phrase = None
         self.guesses = []
         self.category = ""
