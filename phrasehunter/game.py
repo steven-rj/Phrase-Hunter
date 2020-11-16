@@ -27,7 +27,7 @@ class Game:
         Phrase("One Jump Ahead"), Phrase("I Put A Spell On You"), Phrase("Just Around the Riverbend"),
         Phrase("Colors of the Wind"), Phrase("God Help the Outcasts"), Phrase("Topsy Turvy"), Phrase("Go the Distance"),
         Phrase("The Gospel Truth"), Phrase("Two Worlds"), Phrase("Son of Man"), Phrase("Strangers Like Me"),
-        Phrase("Honor To Us All"), Phrase("He Mele No Lilo") ]},
+        Phrase("Honor To Us All") ]},
 
         {"Disney Movies": [Phrase("The Hunchback of Notre Dame"), Phrase("Mulan"), Phrase("Aladdin"),
         Phrase("Moana"), Phrase("The Princess and the Frog"), Phrase("The Lion King"), Phrase("Pirates of the Caribbean"),
@@ -40,7 +40,8 @@ class Game:
         Phrase("Hocus Pocus"), Phrase("Cool Runnings"), Phrase("The Jungle Book"),  Phrase("Pocahontas"),
         Phrase("Hercules"), Phrase("Inspector Gadget"), Phrase("Monsters Inc"), Phrase("Cinderella"),
         Phrase("Snow White and the Seven Dwarves"), Phrase("Tom and Huck"), Phrase("White Fang"), Phrase("Toy Story"),
-        Phrase("A Goofy Movie"), Phrase("James and the Giant Peach"), Phrase("Treasure Planet")]},
+        Phrase("A Goofy Movie"), Phrase("James and the Giant Peach"), Phrase("Treasure Planet"),
+        Phrase("The Reluctant Dragon")]},
         
         {"Disney Characters": [Phrase("Mulan"), Phrase("Shan Yu"), Phrase("Simba"), Phrase("Scar"),
         Phrase("Ariel"), Phrase("Ursula"), Phrase("Aladdin"), Phrase("Jafar"), Phrase("Mr Incredible"), 
@@ -50,7 +51,7 @@ class Game:
         Phrase("Barley Lightfoot"), Phrase("Ian Lightfoot"), Phrase("Rafiki"), Phrase("Timon"), Phrase("Ed"),
         Phrase("Iago"), Phrase("Lilo"), Phrase("Stitch"), Phrase("Nala"), Phrase("Captain Jack Sparrow"),
         Phrase("Captain Salazar"), Phrase("Davy Jones"), Phrase("Sheriff Woody"), Phrase("Buzz Lightyear"),
-        Phrase("Goofy"), Phrase("Max"),Phrase("Esmerelda"), Phrase("Tarzan"), Phrase("")]} ]
+        Phrase("Goofy"), Phrase("Max"),Phrase("Esmerelda"), Phrase("Tarzan"), Phrase("Queen of Hearts")]} ]
         self.active_phrase = None
         self.guesses = []
         self.category = ""
