@@ -41,7 +41,8 @@ class Game:
         Phrase("Hercules"), Phrase("Inspector Gadget"), Phrase("Monsters Inc"), Phrase("Cinderella"),
         Phrase("Snow White and the Seven Dwarves"), Phrase("Tom and Huck"), Phrase("White Fang"), Phrase("Toy Story"),
         Phrase("A Goofy Movie"), Phrase("James and the Giant Peach"), Phrase("Treasure Planet"),
-        Phrase("The Reluctant Dragon"), Phrase("Star Wars Rogue One") ]},
+        Phrase("The Reluctant Dragon"), Phrase("Star Wars Rogue One"), Phrase("The Phantom Menace"),
+        Phrase("Attack of the Clones") ]},
         
         {"Disney Characters": [Phrase("Mulan"), Phrase("Shan Yu"), Phrase("Simba"), Phrase("Scar"),
         Phrase("Ariel"), Phrase("Ursula"), Phrase("Aladdin"), Phrase("Jafar"), Phrase("Mr Incredible"), 
