@@ -43,7 +43,8 @@ class Game:
         Phrase("A Goofy Movie"), Phrase("James and the Giant Peach"), Phrase("Treasure Planet"),
         Phrase("The Reluctant Dragon"), Phrase("Star Wars Rogue One"), Phrase("The Phantom Menace"),
         Phrase("Attack of the Clones"), Phrase("Revenge of the Sith"), Phrase("A New Hope"),
-        Phrase("The Empire Strikes Back"), Phrase("Return of the Jedi"), Phrase("Big Hero Six")]},
+        Phrase("The Empire Strikes Back"), Phrase("Return of the Jedi"), Phrase("The Force Awakens"),
+        Phrase("The Rise of Skywalker"), Phrase("The Last Jedi"),  Phrase("Big Hero Six")]},
         
         {"Disney Characters": [Phrase("Mulan"), Phrase("Shan Yu"), Phrase("Simba"), Phrase("Scar"),
         Phrase("Ariel"), Phrase("Ursula"), Phrase("Aladdin"), Phrase("Jafar"), Phrase("Mr Incredible"), 
