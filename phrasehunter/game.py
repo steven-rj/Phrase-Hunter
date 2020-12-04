@@ -55,7 +55,8 @@ class Game:
         Phrase("Iago"), Phrase("Lilo"), Phrase("Stitch"), Phrase("Nala"), Phrase("Captain Jack Sparrow"),
         Phrase("Captain Salazar"), Phrase("Davy Jones"), Phrase("Sheriff Woody"), Phrase("Buzz Lightyear"),
         Phrase("Goofy"), Phrase("Max"),Phrase("Esmerelda"), Phrase("Tarzan"), Phrase("Queen of Hearts"), Phrase("Happy"),
-        Phrase("Doppy"), Phrase("Doc"), Phrase("Mando"), Phrase("Grogu"), Phrase("Ahsoka Tano")]} ]
+        Phrase("Doppy"), Phrase("Doc"), Phrase("Mando"), Phrase("Grogu"), Phrase("Ahsoka Tano"), Phrase("Luke Skywalker"),
+        Phrase("Anakin Skywalker")]} ]
         self.active_phrase = None
         self.guesses = []
         self.category = ""
