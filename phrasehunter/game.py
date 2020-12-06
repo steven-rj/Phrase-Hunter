@@ -56,7 +56,7 @@ class Game:
         Phrase("Captain Salazar"), Phrase("Davy Jones"), Phrase("Sheriff Woody"), Phrase("Buzz Lightyear"),
         Phrase("Goofy"), Phrase("Max"),Phrase("Esmerelda"), Phrase("Tarzan"), Phrase("Queen of Hearts"), Phrase("Happy"),
         Phrase("Doppy"), Phrase("Doc"), Phrase("Mando"), Phrase("Grogu"), Phrase("Ahsoka Tano"), Phrase("Luke Skywalker"),
-        Phrase("Anakin Skywalker")]} ]
+        Phrase("Anakin Skywalker"), Phra("Boba Fett")]} ]
         self.active_phrase = None
         self.guesses = []
         self.category = ""
