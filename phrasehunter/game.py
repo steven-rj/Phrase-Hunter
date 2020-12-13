@@ -46,7 +46,7 @@ class Game:
         Phrase("The Empire Strikes Back"), Phrase("Return of the Jedi"), Phrase("The Force Awakens"),
         Phrase("The Rise of Skywalker"), Phrase("The Last Jedi"),  Phrase("Big Hero Six"), Phrase("Solo")]},
         
-        {"Disney Characters": [Phrase("Mulan"), Phrase("Shan Yu"), Phrase("Simba"), Phrase("Scar"),
+        {"Disney Characters": [Phrase("Mulan"), Phrase("Shan Yu"), Phrase("Simba"), Phrase("Mufasa"), Phrase("Scar"),
         Phrase("Ariel"), Phrase("Ursula"), Phrase("Aladdin"), Phrase("Jafar"), Phrase("Mr Incredible"), 
         Phrase("The Screenslaver"), Phrase("Beast"), Phrase("Gaston"), Phrase("Mowgli"), Phrase("Shere Khan"),
         Phrase("Hercules"), Phrase("Hades"), Phrase("Quasimodo"), Phrase("Dom Claude Frollo"), Phrase("Wreck It Ralph"),
