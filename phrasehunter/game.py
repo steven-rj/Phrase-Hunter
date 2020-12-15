@@ -57,7 +57,7 @@ class Game:
         Phrase("Goofy"), Phrase("Max"),Phrase("Esmerelda"), Phrase("Tarzan"), Phrase("Queen of Hearts"), Phrase("Happy"),
         Phrase("Doppy"), Phrase("Doc"), Phrase("Mando"), Phrase("Grogu"), Phrase("Ahsoka Tano"), Phrase("Luke Skywalker"),
         Phrase("Anakin Skywalker"), Phrase("Boba Fett"), Phrase("Obi Wan Kenobi"), Phrase("General Grievous"),
-        Phrase("Casian Andor")]} ]
+        Phrase("Casian Andor"), Phrase("King Triton")]} ]
         self.active_phrase = None
         self.guesses = []
         self.category = ""
